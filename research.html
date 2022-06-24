@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- (July 2021) <title>Zhiwu Huang, Computer Vision Lab, ETH Zurich</title> -->
+	  
+    <title>Zhiwu Huang, Assistant Professor, SMU Singapore</title>
+    <link href='https://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109828585-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-109828585-1');
+	</script>
+	  
+	<script type="text/javascript">
+	   function visibility_on(id) {
+		var e = document.getElementById(id+"_text");
+		if(e.style.display == 'none')
+		    e.style.display = 'block';
+		var e = document.getElementById(id+"_img");
+		if(e.style.display == 'none')
+		    e.style.display = 'block';
+	   }
+	   function visibility_off(id) {
+		var e = document.getElementById(id+"_text");
+		if(e.style.display == 'block')
+		    e.style.display = 'none';
+		var e = document.getElementById(id+"_img");
+		if(e.style.display == 'block')
+		    e.style.display = 'none';
+	   }
+	   function toggle_visibility(id) {
+	       var e = document.getElementById(id+"_text");
+	       if(e.style.display == 'inline')
+		  e.style.display = 'block';
+	       else
+		  e.style.display = 'inline';
+	       var e = document.getElementById(id+"_img");
+	       if(e.style.display == 'inline')
+		  e.style.display = 'block';
+	       else
+		  e.style.display = 'inline';
+	   }
+	   function toggle_vis(id) {
+	       var e = document.getElementById(id);
+	       if (e.style.display == 'none')
+		   e.style.display = 'inline';
+	       else
+		   e.style.display = 'none';
+	   }
+	</script>
+	  
+	  
+	  
+    <style>
+      body {
+      font-family: 'Vollkorn', sans-serif;
+      }
+
+      .subheading {
+      font-size: 120%;
+      }
+
+      h2 {
+      clear: left;
+      margin-top: 1em;
+      }
+      
+      h3 {
+      clear: left;
+      margin-top: 1em;
+      }
+      
+      h4 {
+      clear: left;
+      margin-top: 1em;
+      }
+      
+      img {
+      float: left;
+      height: 12em;
+      margin-right: 1em;
+      margin-bottom: 3em;
+      }
+	    
+      img1 {
+      float: left;
+      height: 10em;
+      margin-right: 1em;
+      margin-bottom: 3em;
+      }
+
+      p {
+      margin: 0.5em;
+      }
+
+      nav {
+      margin-top: 3em;
+      margin-bottom: 1em;
+      }
+        
+        a:visited {color:#000066}
+        a:link {color:#000066}
+        a:hover {color: #FF0000}
+        
+        h1,h2,h3{
+            color:#000066
+        }
+      .container {
+	  display:flex;
+	  justify-content:space-between;
+	  align-items:center; 
+      }
+
+    </style>
+  </head>
+  
+  <body>
+    <table cellspacing="0"><tr><td width=100%>
+    <!--<h1>Zhiwu Huang </h1>-->
+	    
+  <div class="container">	    
+    <h1>Zhiwu Huang</h1>
+    <div>
+      <a href="research.html">Research</a> |
+      <a href="people.html">People</a> |
+      <a href="publication.html">Publications</a> |
+      <a href="workshop.html">Workshops </a> |
+      <a href="talk.html">Talks</a> |
+      <a href="teaching.html">Teaching</a> |
+      <a href="position.html">Positions</a> | 
+      <a href="about.html">About me</a> | 
+      <a href="contact.html">Contact</a>
+    </div>
+    <!--<nav id="navbar"> 
+      <ul>
+        <li><a href="index.html#Projects">Research</a></li>
+        <li><a href="publication.html">Publications</a></li>
+        <li><a href="workshop.html">Workshops </a></li>
+        <li><a href="talk.html">Talks</a></li>
+	<li><a href="teaching.html">Teaching</a></li>
+	<li><a href="position.html">Open positions</a></li>
+	<li><a href="about.html">About me</a></li>
+	<li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>-->
+</div>
+	    
+    
+	    	    
+    <div class="subheading">
+      <!--<img src="./Photos/ZhiwuHuang-Hawaii.jpeg"/>-->
+      <img src="./Photos/ZhiwuHuang-Sydney_2x-9.jpg"/>
+      <!--I am a postdoctoral researcher with Prof. <a href="https://vision.ee.ethz.ch/people-details.OTAyMzM=.TGlzdC8zMjQ4LC0xOTcxNDY1MTc4.html">Luc Van Gool</a> at <a href="http://www.vision.ee.ethz.ch/">Computer Vision Lab</a>, <a href="https://ethz.ch/en.html"> ETH Zurich </a>. My research interest lies in Computer Vision and Machine Learning for Automated Video Artificial Intelligence, capable of automatically learning to understand the world through videos. My research includes applications to deepfakes tracking, affective computing, and autonomous driving. <br><br>-->	
+      <!--I am a postdoctoral researcher with Prof. <a href="https://vision.ee.ethz.ch/people-details.OTAyMzM=.TGlzdC8zMjQ4LC0xOTcxNDY1MTc4.html">Luc Van Gool</a> at <a href="http://www.vision.ee.ethz.ch/">Computer Vision Lab</a>, <a href="https://ethz.ch/en.html"> ETH Zurich </a>. My research studies human-inspired visual intelligence to understand the world through videos, with applications to deepfakes generation & detection, perceptual quality enhancing, affective & behavioural computing, as well as scalable autonomous driving. <br><br>-->
+      <!--I am a postdoctoral researcher with Prof. <a href="https://vision.ee.ethz.ch/people-details.OTAyMzM=.TGlzdC8zMjQ4LC0xOTcxNDY1MTc4.html">Luc Van Gool</a> at <a href="http://www.vision.ee.ethz.ch/">Computer Vision Lab</a>, <a href="https://ethz.ch/en.html"> ETH Zurich </a>. My research studies human-inspired visual intelligence through automated machine learning, with applications to deepfakes generation & detection, perceptual quality enhancing, affective & behavioural computing, as well as scalable autonomous driving. <br><br>-->
+      <!--I am a postdoctoral researcher with Prof. <a href="https://vision.ee.ethz.ch/people-details.OTAyMzM=.TGlzdC8zMjQ4LC0xOTcxNDY1MTc4.html">Luc Van Gool</a> at <a href="http://www.vision.ee.ethz.ch/">Computer Vision Lab</a>, <a href="https://ethz.ch/en.html"> ETH Zurich </a>. My research team (AutoLV, Automated Learning in Vision) studies human-inspired visual intelligence through automated machine learning on data, label, feature, neuron and task. The applications include visual deepfake, affect and behavior computing. <br><br>-->
+      <!--I am a postdoctoral researcher with Prof. <a href="https://vision.ee.ethz.ch/people-details.OTAyMzM=.TGlzdC8zMjQ4LC0xOTcxNDY1MTc4.html">Luc Van Gool</a> at <a href="http://www.vision.ee.ethz.ch/">Computer Vision Lab</a>, <a href="https://ethz.ch/en.html"> ETH Zurich </a>. My research team (AutoLV) studies automated learning in vision that aims for making machines to learn the visual world, all by themselves. The current research focus is on visual fake, affect and behavior computing through automated machine learning on data, label, feature, neuron and task. <br><br> -->
+    	    
+      <!--I currently working on video generation, enhancement and manipulation as well as human-focussed video clustering, classification, prediction with deep manifold learning, generative distribution learning, and neural architecture learning.-->
+     <!--I will be starting as an Assistant Professor in the <a href="https://sis.smu.edu.sg"> School of Computing and Information Systems <a> at <a href="https://www.smu.edu.sg"> Singapore Management University (SMU) </a> in Summer of 2021. My research team (<a href="index.html#Projects">AutoLV</a>) studies automated learning in vision that aims for making machines to learn the visual world, all by themselves. The current research focus is on visual fake, affect and behavior computing through automated machine learning on data, label, feature, neuron and task. Please follow the <a href="position.html"> instructions </a> to reach me if you are interested in joining my research group as a PhD student. <br>-->
+
+      <!--I will be starting as an Assistant Professor in the <a href="https://sis.smu.edu.sg"> School of Computing and Information Systems <a> at <a href="https://www.smu.edu.sg"> Singapore Management University (SMU) </a> in Summer of 2021, after finishing the postdoc research with Prof. <a href="https://vision.ee.ethz.ch/people-details.OTAyMzM=.TGlzdC8zMjQ4LC0xOTcxNDY1MTc4.html">Luc Van Gool</a> at <a href="http://www.vision.ee.ethz.ch/">Computer Vision Lab</a>, <a href="https://ethz.ch/en.html"> ETH Zurich </a>. My research group (<a href="index.html#Projects">AutoLV</a>) studies automated learning in vision that aims for making machines to learn the visual world, all by themselves. Our research focuses on visual fake, affect and behavior computing through automated machine learning on data, label, feature, neuron and task. <br><br>-->
+	
+      <!--I will be starting as an Assistant Professor in the <a href="https://sis.smu.edu.sg"> School of Computing and Information Systems <a> at <a href="https://www.smu.edu.sg"> Singapore Management University (SMU) </a> in Summer of 2021. My research group (<a href="index.html#Projects">AutoLV</a>) studies automated learning in vision that aims for making machines to learn the visual world, all by themselves. Our research focuses on visual fake, affect and behavior computing through automated machine learning on data, label, feature, neuron and task. <br> <br>-->
+	    
+      <!--(August 2021)I will be starting as an Assistant Professor in the <a href="https://sis.smu.edu.sg">School of Computing and Information Systems<a> at <a href="https://www.smu.edu.sg">Singapore Management University (SMU)</a>. Before coming to Singapore, I worked as a Guest/Postdoc Researcher with Prof. <a href="https://vision.ee.ethz.ch/people-details.OTAyMzM=.TGlzdC8zMjQ4LC0xOTcxNDY1MTc4.html">Luc Van Gool</a> in <a href="http://www.vision.ee.ethz.ch/">Computer Vision Lab</a> at <a href="https://ethz.ch/en.html">ETH Zurich</a>. My <a href="index.html#Projects">AutoVL</a> group studies Automated Visual Learning that aims for making machines to learn the visual world, all by themselves. Our research focuses on visual fake, affect and behavior computing through automated machine learning on data, label, feature, neuron and task. <br> <br>-->
+	    
+      <!--Before coming to Singapore, I worked as a postdoc researcher with Prof. <a href="https://vision.ee.ethz.ch/people-details.OTAyMzM=.TGlzdC8zMjQ4LC0xOTcxNDY1MTc4.html">Luc Van Gool</a> at <a href="https://ethz.ch/en.html">ETH Zurich</a>. <br><br>-->
+      
+	    
+      <!--I am an Assistant Professor of Computer Science in the <a href="https://sis.smu.edu.sg">School of Computing and Information Systems<a> at <a href="https://www.smu.edu.sg">Singapore Management University (SMU)</a>. Before coming to Singapore, I worked as a Guest/Postdoc Researcher with Prof. <a href="https://vision.ee.ethz.ch/people-details.OTAyMzM=.TGlzdC8zMjQ4LC0xOTcxNDY1MTc4.html">Luc Van Gool</a> in <a href="http://www.vision.ee.ethz.ch/">Computer Vision Lab</a> at <a href="https://ethz.ch/en.html">ETH Zurich</a>. My <a href="index.html#Projects">AutoVL</a> group studies Automated Visual Learning that aims for making machines to learn the visual world, all by themselves. Our research focuses on visual fake, affect and behavior computing through automated machine learning on data, label, feature, neuron and task. <br> <br>-->
+	    
+      <!--I am working as an Assistant Professor of Computer Science in the <a href="https://sis.smu.edu.sg">School of Computing and Information Systems<a> at <a href="https://www.smu.edu.sg">Singapore Management University (SMU)</a>. Before coming to Singapore, I worked as a Guest/Postdoc Researcher with Prof. <a href="https://vision.ee.ethz.ch/people-details.OTAyMzM=.TGlzdC8zMjQ4LC0xOTcxNDY1MTc4.html">Luc Van Gool</a> in <a href="http://www.vision.ee.ethz.ch/">Computer Vision Lab</a> at <a href="https://ethz.ch/en.html">ETH Zurich</a>. My <a href="index.html#Projects">AutoVL</a> group studies Automated Visual Learning that aims for making machines to learn the visual world, all by themselves. Our research focuses on visual fake, affect and behavior computing through automated machine learning on data, label, feature, neuron and task. <br> <br>-->
+	    
+      I am an Assistant Professor of Computer Science in the <a href="https://sis.smu.edu.sg">School of Computing and Information Systems<a> at <a href="https://www.smu.edu.sg">Singapore Management University (SMU)</a>. Before coming to Singapore, I worked as a Guest/Postdoc Researcher with Prof. <a href="https://vision.ee.ethz.ch/people-details.OTAyMzM=.TGlzdC8zMjQ4LC0xOTcxNDY1MTc4.html">Luc Van Gool</a> in <a href="http://www.vision.ee.ethz.ch/">Computer Vision Lab</a> at <a href="https://ethz.ch/en.html">ETH Zurich</a>. My <a href="index.html#Projects">SAVG</a> (SMU Autonomous Vision Group) performs the research that aims for making machines to learn the visual world, all by themselves. Our research focuses on visual deepfake, affective and behavior computing through automated machine learning on data, label, feature, neuron and task. <br> <br>	    
+	    
+
+      
+      <!--<em> I am actively looking for motivated and talented PhD students to join our reaseach group at SMU (ranked No.47 in the AI category and No.85 in the CS discipline according to <a href="http://csrankings.org/#/index?all&world">CSRankings</a>). Please follow the <a href="position.html"> instructions </a> to reach me if you are interested. </em>-->
+
+      
+      <em> I am looking for motivated and talented PhD students to join our research group at SMU. Please follow the <a href="position.html"> instructions </a> to reach me if you are interested. </em>
+        
+      <!--<b> [<a href="http://scholar.google.ch/citations?user=yh6t92AAAAAJ&hl=en">Google Scholar</a>] [<a href="https://github.com/zhiwu-huang"> Github </a>] </b> -->
+      
+       <!-- <b>Prospective students </b>, please <a href="javascript:toggle_vis('contact')">read this</a> before contacting me.
+              <div id="contact" style="display:none"> 
+                  Thank you for your interest in joining my research team! I am taking on new MS and PhD students each year. However, I ask that you do not contact me directly with regard to MS or PhD admissions until after you are admitted, as I will not be able to reply to individual emails. <br>
+                  If you are interested in a <i>post-doc</i> position, please read <a href="https://goo.gl/forms/aKL2gnq8T80FNVMb2">this form</a>. <br>
+                  If you are a current or admitted <i>ETH MS student</i> interested in research positions, please read <a href="https://goo.gl/forms/uJuYOfIBQVPhEEDy1">this form</a>. <br>
+                  If you are not an ETH student and insteresed in research positions, please read <a href="https://goo.gl/forms/9scJRH3hw6z7GNbj2">this form</a>.
+              </div>
+        </p>-->
+        
+    </div>
+    
+
+    
+    
+    <!--<h2>Research </h2> -->
+    
+
+    <!--<h3>  Major Projects </h3>-->
+    <a name="Projects"> <h2> Research (<a href="https://github.com/SAVG2021">GitHub Group</a>) </h2> </a>
+
+          <!--<h4>Video Generation</h4>-->
+	  <h3> Visual Deepfake Computing </h3>
+          <table><tr>
+		  
+		  <td width="40%">  <a href="https://github.com/SAVG2021"><video autoplay muted loop width="100%">
+			  <!--<source src="https://epic-kitchens.github.io/static/videos/04x04_vp9.webm" type="video/webm">-->
+			  <source src="./Videos/trailerfaces_generation_cropped.mp4" type="video/mp4">
+			  <source src="./Videos/trailerfaces_generation_cropped.mp4" type="video/mp4">
+			  Sorry, we cannot display the generated video wall as
+			  your browser doesn't support HTML5 video.
+                  </video></a></td>
+		  
+		<td valign="top">
+		<p><a href="https://github.com/SAVG2021"> Source Code </a> | <a href="https://github.com/AutoVL/TrailerAffect"> TrailerFaces Dataset </a> 
+	    	<p> Sliced Wasserstein Generative Models. <a href="https://scholar.google.ch/citations?user=BCKKfUEAAAAJ&hl=en"> Jiqing Wu* </a>, <b>Zhiwu Huang*</b>, Dinesh Acharya, <a href="https://scholar.google.com/citations?user=yjG4Eg4AAAAJ&hl=en"> Wen Li </a>, <a href="https://scholar.google.ch/citations?user=NpZj7TAAAAAJ&hl=en"> Janine Thoma </a>, <a href="https://scholar.google.ch/citations?user=W43pvPkAAAAJ&hl=en"> Danda Pani Paudel </a>,  <a href="https://scholar.google.com/citations?user=TwMib_QAAAAJ&hl=en"> Luc Van Gool </a>. <em> (*indicates equal contributions). </em>                
+			 In <em> Computer Vision and Pattern Recognition (CVPR), 2019 </em>. <a href="https://arxiv.org/pdf/1706.02631.pdf">Paper</a> <br>
+			<b>Extension:</b> Towards High Resolution Video Generation with Progressive Growing of Sliced Wasserstein GANs. Dinesh Acharya, <b>Zhiwu Huang</b>, <a href="https://scholar.google.ch/citations?user=W43pvPkAAAAJ&hl=en"> Danda Pani Paudel </a>, <a href="https://scholar.google.com/citations?user=TwMib_QAAAAJ&hl=en"> Luc Van Gool </a>.  
+			 <em> arXiv preprint arXiv:1810.02419, 2018. </em> <a href="https://arxiv.org/pdf/1810.02419.pdf"> Paper </a> | <a href="https://github.com/musikisomorphie/swd"> Code </a> </p> <!--<b> (Automated Data Learning) </b>-->
+		<!--<p>Improving Video Generation for Multi-functional Applications. <a href="https://scholar.google.ch/citations?user=zYjOhRUAAAAJ&hl=en"> Bernhard Kratzwald </a>, <b>Zhiwu Huang</b>, <a href="https://scholar.google.ch/citations?user=W43pvPkAAAAJ&hl=en"> Danda Pani Paudel </a>,  <a href="https://www.researchgate.net/scientific-contributions/2142556529_Dinesh_Acharya"> Dinesh Acharya </a>, <a href="https://scholar.google.com/citations?user=TwMib_QAAAAJ&hl=en"> Luc Van Gool </a>. <em>  arXiv:1711.11453, 2017</em>. <a href="https://arxiv.org/pdf/1711.11453.pdf"> Paper </a> | <a href="https://bernhard2202.github.io/ivgan/index.html"> Project Page </a> </p>-->
+                <p>Wasserstein Divergence for GANs. <a href="https://scholar.google.ch/citations?user=BCKKfUEAAAAJ&hl=en"> Jiqing Wu </a>, <b>Zhiwu Huang</b>, <a href="https://scholar.google.ch/citations?user=NpZj7TAAAAAJ&hl=en"> Janine Thoma </a>, Dinesh Acharya, <a href="https://scholar.google.com/citations?user=TwMib_QAAAAJ&hl=en"> Luc Van Gool </a>. In <em> European Conference on Computer Vision (ECCV), 2018  </em>.  <a href="https://arxiv.org/pdf/1712.01026.pdf">Paper</a> | <a href="https://github.com/musikisomorphie/wgan-div">Code</a> </p>
+		<p>Off-Policy Reinforcement Learning for Efficient and Effective GAN Architecture Search. <a href="https://scholar.google.com/citations?user=84hs7J4AAAAJ&hl=en">Yuan Tian*</a>, <a href="https://scholar.google.ch/citations?user=-8OUEKwAAAAJ&hl=en">Qin Wang*</a>, <b>Zhiwu Huang</b>, <a href="https://scholar.google.com.sg/citations?user=yjG4Eg4AAAAJ&hl=en">Wen Li</a>, <a href="https://scholar.google.ch/citations?user=T51W57YAAAAJ&hl=en"> Dengxin Dai </a>, <a href="https://www.linkedin.com/in/minghaoyang/?originalSubdomain=nl"> Minghao Yang </a>, <a href="https://scholar.google.com/citations?user=wIE1tY4AAAAJ&hl=en"> Jun Wang </a>, <a href="https://scholar.google.com/citations?user=eAcIoUgAAAAJ&hl=en"> Olga Fink</a>. <em> (*indicates equal contributions) </em>. In <em> European Conference on Computer Vision (ECCV), 2020 </em>. <a href="https://arxiv.org/pdf/2007.09180.pdf">Paper </a> | <a href="https://github.com/Yuantian013/E2GAN"> Code </a> <!--<b> (Automated Neuron Learning) </b>-->  
+		<p>Efficient Conditional GAN Transfer with Knowledge Propagation across Classes. <a href="https://scholar.google.ch/citations?user=0nGkMM8AAAAJ&hl=en"> Mohamad Shahbazi </a>, <b>Zhiwu Huang</b>, <a href="https://scholar.google.ch/citations?user=W43pvPkAAAAJ&hl=en"> Danda Pani Paudel </a>, <a href="https://scholar.google.ch/citations?user=3BHMHU4AAAAJ&hl=en"> Ajad Chhatkuli </a>, <a href="https://scholar.google.com/citations?user=TwMib_QAAAAJ&hl=en"> Luc Van Gool </a>. In <em> Computer Vision and Pattern Recognition (CVPR), 2021. </em> <a href="https://arxiv.org/pdf/2102.06696.pdf"> Preprint </a> | <a href="https://github.com/mshahbazi72/cGANTransfer"> Code </a>  </p> <!--<b> (Automated Task Learning) </b> -->
+
+          </td></tr></table>
+	    
+	   <!--<h3>  Other Projects </h3>-->
+
+	  <!--<h3><a href="https://competitions.codalab.org/competitions/20247">Video Enhancement</a></h3>
+	    <a href="ideo_enhancement_demo.jpg"><img src="video_enhancement_demo.jpg" width="480"></a>-->
+          <!--<h4>Video Enhancement</h4>-->
+	    
+	 <!--<h4> Perceptual Quality Enhancing </h4>-->
+          <table><tr>
+		  
+         <td width="40%">  <a href="https://github.com/SAVG2021"><video autoplay muted loop width="100%">
+			  <!--<source src="https://epic-kitchens.github.io/static/videos/04x04_vp9.webm" type="video/webm">-->
+			  <source src="./Videos/dacal_supp_vid3oc_converted.mp4" type="video/mp4">
+			  <source src="./Videos/dacal_supp_vid3oc_converted.mp4" type="video/mp4">
+			  Sorry, we cannot display the generated video wall as
+			  your browser doesn't support HTML5 video.
+          </video></a></td>
+		  
+	 <td valign="top" width="60%">
+	  
+	    <p><a href="https://competitions.codalab.org/competitions/20247"> Video Quality Mapping Challenge </a> | <a href= "https://competitions.codalab.org/competitions/24685"> Video Super-Resolution Challenge </a> </p> 
+            <p> The Vid3oC and IntVID Datasets for Video Super Resolution and Quality Mapping. Sohyeong Kim, Guanju Li, <a href="https://scholar.google.com/citations?user=PaIVtpMAAAAJ&hl=en"> Dario Fuoli </a>, <a href="https://scholar.google.com/citations?user=NCSSpMkAAAAJ&hl=sv"> Martin Danelljan </a>, <b>Zhiwu Huang</b>, <a href="https://scholar.google.com/citations?user=-kSTt40AAAAJ&hl=en"> Shuhang Gu </a>, <a href="https://scholar.google.com/citations?user=u3MwH5kAAAAJ&hl=en"> Radu Timofte </a>. In <em>  International Conference on Computer Vision (ICCV) workshop, 2019 </em>. <a href="http://www.vision.ee.ethz.ch/~timofter/publications/Kim-ICCVW-2019.pdf">Paper</a>
+	    </p>
+	    <p> Divide-and-Conquer Adversarial Learning for High-Resolution Image and Video Enhancement. <b>Zhiwu Huang</b>, <a href="https://scholar.google.ch/citations?user=W43pvPkAAAAJ&hl=en"> Danda Pani Paudel </a>, <a href="https://scholar.google.com/citations?user=PaIVtpMAAAAJ&hl=en"> Dario Fuoli </a>, <a href="https://github.com/ligua"> Guanju Li </a>,  <a href="https://scholar.google.ch/citations?user=BCKKfUEAAAAJ&hl=en"> Jiqing Wu </a>, <a href="https://scholar.google.com/citations?user=u3MwH5kAAAAJ&hl=en"> Radu Timofte </a>, <a href="https://scholar.google.com/citations?user=TwMib_QAAAAJ&hl=en"> Luc Van Gool </a>. <em> arXiv preprint arXiv:1910.10455, 2019 </em>. <a href="https://arxiv.org/pdf/1910.10455.pdf"> Paper </a>
+	    </p>
+	    <p> NTIRE 2020 Challenge on Video Quality Mapping: Methods and Results. <a href="https://scholar.google.com/citations?user=PaIVtpMAAAAJ&hl=en"> Dario Fuoli </a>, <b>Zhiwu Huang</b>, <a href="https://scholar.google.com/citations?user=NCSSpMkAAAAJ&hl=sv"> Martin Danelljan, <a href="https://scholar.google.com/citations?user=u3MwH5kAAAAJ&hl=en"> Radu Timofte </a> and et al. In <em>  Computer Vision and Pattern Recognition (CVPR) workshop, 2020 </em>. <a href="https://arxiv.org/pdf/2005.02291.pdf">Paper</a>
+	    </p>
+            <p> AIM 2020 Challenge on Video Extreme Super-Resolution: Methods and Results. <a href="https://scholar.google.com/citations?user=PaIVtpMAAAAJ&hl=en"> Dario Fuoli </a>, <b>Zhiwu Huang</b>, <a href="https://scholar.google.com/citations?user=u3MwH5kAAAAJ&hl=en"> Radu Timofte </a> and et al. In <em> European Conference on Computer Vision (ECCV) workshop, 2020 </em>. <a href="./Papers/ECCV_2020__AIM2020_VXSR.pdf"> Paper </a>
+	    </p>
+	    <p> <a href="https://scholar.google.com/citations?user=PaIVtpMAAAAJ&hl=en"> Dario Fuoli </a>, <b>Zhiwu Huang</b>, <a href="https://scholar.google.ch/citations?user=W43pvPkAAAAJ&hl=en"> Danda Pani Paudel </a>, <a href="https://scholar.google.com/citations?user=TwMib_QAAAAJ&hl=en"> Luc Van Gool </a>, <a href="https://scholar.google.com/citations?user=u3MwH5kAAAAJ&hl=en"> Radu Timofte </a>. An Efficient Recurrent Adversarial Framework for Unsupervised Real-Time Video Enhancement. <em> arXiv preprint arXiv:2012.13033, 2020 </em>. <a href="https://arxiv.org/pdf/2012.13033.pdf"> Paper </a> </p>
+
+
+          </td>
+	  
+	  </tr></table> 
+	    
+	    
+	  <h3> Facial Affective Computing </h3>
+          <table><tr>
+		  
+		  <!--<td width="40%"> <img width="98%" src="./Images/FacialAffectComputing.png"/> </td>-->
+		  
+		  <td width="40%">  <a href="https://github.com/SAVG2021"><video autoplay muted loop width="100%">
+			  <!--<source src="https://epic-kitchens.github.io/static/videos/04x04_vp9.webm" type="video/webm">-->
+			  <source src="./Videos/trailerfaces_reals.mp4" type="video/mp4">
+			  <source src="./Videos/trailerfaces_reals.mp4" type="video/mp4">
+			  Sorry, we cannot display the generated video wall as
+			  your browser doesn't support HTML5 video.
+                  </video></a></td>
+
+		  
+		  <td valign="top">
+		<p><a href="https://github.com/SAVG2021"> Source Code </a> | <a href="https://data.vision.ee.ethz.ch/zzhiwu/ManifoldNetData/SPDData/AFEW_SPD_data.zip"> AFEW SPDData </a> | <a href="https://github.com/AutoVL/TrailerAffect"> TrailerAffect Dataset </a> 
+			
+		<p> A Riemannian Network for SPD Matrix Learning. <b>Zhiwu Huang</b>, <a href="https://scholar.google.com/citations?user=TwMib_QAAAAJ&hl=en"> Luc Van Gool </a>.  
+			 In <em>  Association for the Advancement of Artificial Intelligence (AAAI), 2017. </em> <a href="https://aaai.org/ocs/index.php/AAAI/AAAI17/paper/viewFile/14633/14371">Paper</a> |
+			      <a href="https://github.com/zhiwu-huang/SPDNet"> Code </a>  <br> <!--<b> (Automated Feature Learning) </b>-->
+	        <b> Extension:</b> Covariance Pooling for Facial Expression Recognition. Dinesh Acharya, <b>Zhiwu Huang</b>, <a href="https://scholar.google.ch/citations?user=W43pvPkAAAAJ&hl=en"> Danda Pani Paudel </a>, <a href="https://scholar.google.com/citations?user=TwMib_QAAAAJ&hl=en"> Luc Van Gool </a>. In <em> Computer Vision and Pattern Recognition (CVPR) workshop, 2018 </em>. <a href="https://arxiv.org/pdf/1805.04855.pdf">Paper</a> | <a href="https://github.com/d-acharya/CovPoolFER">Code</a> 
+		</p>
+	        <p>Building Deep Networks on Grassmann Manifolds. <b>Zhiwu Huang</b>, <a href="https://scholar.google.ch/citations?user=BCKKfUEAAAAJ&hl=en"> Jiqing Wu </a>, <a href="https://scholar.google.com/citations?user=TwMib_QAAAAJ&hl=en"> Luc Van Gool </a>. In <em> Association for the Advancement of Artificial Intelligence (AAAI),  2018. </em> <a href="https://arxiv.org/pdf/1611.05742.pdf">Paper</a> |
+			      <a href="https://github.com/zzhiwu/GrNet"> Code </a> </p> <!--<b> (Automated Feature Learning) </b>-->
+		  
+	        <p>  Neural Architecture Search of SPD Manifold Networks. Rhea Sanjay Sukthanker, <b>Zhiwu Huang</b>, <a href="https://scholar.google.com/citations?user=wbk0QAcAAAAJ&hl=en"> Suryansh Kumar </a>, Erik Goron Endsjo, Yan Wu,  <a href="https://scholar.google.com/citations?user=TwMib_QAAAAJ&hl=en"> Luc Van Gool </a>. In <em> International Joint Conference on Artificial Intelligence (IJCAI), 2021. </em> <a href="https://www.ijcai.org/proceedings/2021/0413.pdf"> Paper </a> </p> <!--<b> (Automated Neuron Learning) </b>-->
+
+
+		  
+		
+		
+           </td></tr></table>
+	    
+	   <table><tr>
+		  
+		  <!--<td width="40%"> <img width="88%" src="./Images/FacialAffectGamut.png"/> </td>-->
+		   
+		  <td width="20%"> <img width="98%" src="./Images/FacialAffectComputing_half.png"/> </td>
+		  
+		  <td width="20%"> <img width="98%" src="./Images/FacialAffectGamut_new.png"/> </td>
+
+
+		  
+		  <td valign="top">
+			<p> Facial Emotion Recognition with Noisy Multi-task Annotations. Siwei Zhang, <b>Zhiwu Huang</b>, <a href="https://scholar.google.ch/citations?user=W43pvPkAAAAJ&hl=en"> Danda Pani Paudel </a>, <a href="https://scholar.google.com/citations?user=TwMib_QAAAAJ&hl=en"> Luc Van Gool </a>. In <em> Winter Conference on Applications of Computer Vision (WACV), 2021 </em>.  <a href="https://arxiv.org/pdf/2010.09849.pdf"> Paper </a> | <a href="https://github.com/sanweiliti/noisyFER"> Code </a> </p> <!--<b> (Automated Label Learning) </b>-->
+
+
+			<p> GANmut: Learning Interpretable Conditional Space for Gamut of Emotions. Stefano D'Apolito, <a href="https://scholar.google.ch/citations?user=W43pvPkAAAAJ&hl=en"> Danda Pani Paudel </a>, <b>Zhiwu Huang</b>, <a href="https://scholar.google.com.co/citations?user=k4m3LGIAAAAJ&hl=en"> Andres Romero Vergara </a>, <a href="https://scholar.google.com/citations?user=TwMib_QAAAAJ&hl=en"> Luc Van Gool </a>. In <em> Computer Vision and Pattern Recognition (CVPR), 2021</em>. <a href="./Papers/GANmut_CVPR2021.pdf"> Preprint </a> | <a href="https://github.com/stefanodapolito/GANmut"> Code </a> </p> <!--<b> (Automated Label Learning) </b>-->
+  
+		
+		
+           </td></tr></table>
+	    
+	    
+	   <!--<h4>Video Classification</h4>-->
+	  <h3> Skeletal Behavior Computing </h3>
+          <table><tr>
+		  
+		<td width="40%">  <a href="https://github.com/SAVG2021"><video autoplay muted loop width="100%">
+			  <!--<source src="https://epic-kitchens.github.io/static/videos/04x04_vp9.webm" type="video/webm">-->
+			  <source src="./Videos/video_classification_croped2.mp4" type="video/mp4">
+			  <source src="./Videos/video_classification_croped2.mp4" type="video/mp4">
+			  Sorry, we cannot display the generated video wall as
+			  your browser doesn't support HTML5 video.
+                </video></a></td>
+		  
+		<td valign="top" width="60%">
+		<p><a href="https://github.com/SAVG2021"> Source Code </a> | <a href=" https://data.vision.ee.ethz.ch/zzhiwu/ManifoldNetData/LieData/G3D_Lie_data.zip"> G3D LieGroupData </a> 			
+		
+		<p> Deep Learning on Lie Groups for Skeleton-based Action Recognition. <b>Zhiwu Huang</b>, <a href="https://scholar.google.ch/citations?user=bm5dZwIAAAAJ&hl=en"> Chengde Wan </a>, <a href="https://scholar.google.ch/citations?user=pfEoUpcAAAAJ&hl=de"> Thomas Probst </a>,  <a href="https://scholar.google.com/citations?user=TwMib_QAAAAJ&hl=en"> Luc Van Gool </a>.                
+			In <em> Computer Vision and Pattern Recognition (CVPR), 2017 </em>. <a href="http://openaccess.thecvf.com/content_cvpr_2017/papers/Huang_Deep_Learning_on_CVPR_2017_paper.pdf">Paper</a> |
+			      <a href="https://github.com/zhiwu-huang/LieNet"> Code </a> | <a href="./Talks/lienet_spotlight_v1.0.pdf"> Spotlight </a>  <br> <!--<b> (Automated Feature Learning) </b>-->
+		<b> Extension:</b> Studying Multiple Cues for Human Action Recognition on RGB+D Data. Jonathan Gan, <b>Zhiwu Huang</b>, <a href="https://scholar.google.ch/citations?user=W43pvPkAAAAJ&hl=en"> Danda Pani Paudel </a> <em> Tech. Report (Semester Thesis), 2017.	</em>  <a href="./Papers/MultiCuesActivity_JonGAN_thesis.pdf">Paper</a>
+	        </p>
+		
+	        <p>Building Deep Networks on Grassmann Manifolds. <b>Zhiwu Huang</b>, <a href="https://scholar.google.ch/citations?user=BCKKfUEAAAAJ&hl=en"> Jiqing Wu </a>, <a href="https://scholar.google.com/citations?user=TwMib_QAAAAJ&hl=en"> Luc Van Gool </a>. In <em> Association for the Advancement of Artificial Intelligence (AAAI),  2018. </em> <a href="https://arxiv.org/pdf/1611.05742.pdf">Paper</a> |
+			      <a href="https://github.com/zzhiwu/GrNet"> Code </a>  </p> <!--<b> (Automated Feature Learning) </b>-->
+	       
+
+                </td>
+		  
+		
+		  
+	 </tr></table>
+	    
+	 <table><tr>
+		  
+		  <td width="40%"> <img width="100%" src="./Images/SkeletonEstimate.png"/> </td>
+
+		  
+		  <td valign="top">  
+			  
+			   
+	                <p>  Neural Architecture Search of SPD Manifold Networks. Rhea Sanjay Sukthanker, <b>Zhiwu Huang</b>, <a href="https://scholar.google.com/citations?user=wbk0QAcAAAAJ&hl=en"> Suryansh Kumar </a>, Erik Goron Endsjo, Yan Wu,  <a href="https://scholar.google.com/citations?user=TwMib_QAAAAJ&hl=en"> Luc Van Gool </a>. In <em> International Joint Conference on Artificial Intelligence (IJCAI), 2021. </em> <a href="https://www.ijcai.org/proceedings/2021/0413.pdf"> Paper </a>  <!--<b> (Automated Neuron Learning) </b>-->
+			<b> Extension:</b> Neural Architecture Search on Lie Groups for Skeleton-based Action Recognition. Samuele Serafino, <b>Zhiwu Huang</b>, <a href="https://scholar.google.com/citations?user=wbk0QAcAAAAJ&hl=en"> Suryansh Kumar </a>, <a href="https://scholar.google.com/citations?user=TwMib_QAAAAJ&hl=en"> Luc Van Gool </a>. <em> Tech. Report (Semester Thesis), 2020.	</em>  <a href="./Papers/LieNetNAS_thesis_Samuele.pdf">Paper</a>
+			</p>  
+		
+		
+           </td></tr></table>
+	    
+	    
+	 
+	    
+	   
+	  <!--<h4> Scalable Autonomous Driving </h4>
+          <table><tr>
+		  
+		  <td width="40%"> <img height="120%" width="100%" src="./Images/DrivingSceneTranslation.png"/> </td>
+
+		  
+		  <td valign="top">
+		<p><a href="https://github.com/zhangma123/weaklypaired"> Source Code (coming soon) </a> | <a href="https://github.com/zhangma123/weaklypaired"> Weakly-Paired Oxford Robotcar Dataset (coming soon) </a> 
+	    
+		  
+		<p> Marc Yanlong Zhang, <b>Zhiwu Huang</b>, <a href="https://scholar.google.ch/citations?user=W43pvPkAAAAJ&hl=en"> Danda Pani Paudel </a>, <a href="https://scholar.google.ch/citations?user=NpZj7TAAAAAJ&hl=en"> Janine Thoma </a>, <a href="https://scholar.google.com/citations?user=TwMib_QAAAAJ&hl=en"> Luc Van Gool </a>. Weakly Paired Multi-Domain Image Translation. In <em> British Machine Vision Conference (BMVC), 2020. (Oral). </em> <a href="./Papers//BMVC2020_WeaklyPaired.pdf"> Paper </a> | <a href="./Papers//BMVC2020_WeaklyPaired_suppl.pdf"> Supp </a> | <a href="https://www.bmvc2020-conference.com/conference/papers/paper_0841.html"> Oral Presentation </a> <b> (Automated Data Learning) </b>   </p>
+
+		
+           </td></tr></table>  -->
+	    
+	   
+	    
+	
+	    
+   </body>
+</html>
