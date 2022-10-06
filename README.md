@@ -28,4 +28,6 @@ Syntax highlighted code block
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
+Website credit: http://people.cs.bris.ac.uk/~damen
+
 
