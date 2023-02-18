@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- (July 2021) <title>Zhiwu Huang, Computer Vision Lab, ETH Zurich</title> -->
+	  
+    <!--<title>Zhiwu Huang, Assistant Professor, SMU Singapore</title>-->
+    <title>Zhiwu Huang, Lecturer (Assistant Professor), University of Southampton</title>
+	  
+    <link href='https://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109828585-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-109828585-1');
+	</script>
+	  
+	<script type="text/javascript">
+	   function visibility_on(id) {
+		var e = document.getElementById(id+"_text");
+		if(e.style.display == 'none')
+		    e.style.display = 'block';
+		var e = document.getElementById(id+"_img");
+		if(e.style.display == 'none')
+		    e.style.display = 'block';
+	   }
+	   function visibility_off(id) {
+		var e = document.getElementById(id+"_text");
+		if(e.style.display == 'block')
+		    e.style.display = 'none';
+		var e = document.getElementById(id+"_img");
+		if(e.style.display == 'block')
+		    e.style.display = 'none';
+	   }
+	   function toggle_visibility(id) {
+	       var e = document.getElementById(id+"_text");
+	       if(e.style.display == 'inline')
+		  e.style.display = 'block';
+	       else
+		  e.style.display = 'inline';
+	       var e = document.getElementById(id+"_img");
+	       if(e.style.display == 'inline')
+		  e.style.display = 'block';
+	       else
+		  e.style.display = 'inline';
+	   }
+	   function toggle_vis(id) {
+	       var e = document.getElementById(id);
+	       if (e.style.display == 'none')
+		   e.style.display = 'inline';
+	       else
+		   e.style.display = 'none';
+	   }
+	</script>
+	  
+	  
+	  
+    <style>
+      body {
+      font-family: 'Vollkorn', sans-serif;
+      }
+
+      .subheading {
+      font-size: 120%;
+      }
+
+      h2 {
+      clear: left;
+      margin-top: 1em;
+      }
+      
+      h3 {
+      clear: left;
+      margin-top: 1em;
+      }
+      
+      h4 {
+      clear: left;
+      margin-top: 1em;
+      }
+      
+      img {
+      float: left;
+      height: 12em;
+      margin-right: 1em;
+      margin-bottom: 3em;
+      }
+     
+
+      p {
+      margin: 0.5em;
+      }
+
+      nav {
+      margin-top: 3em;
+      margin-bottom: 1em;
+      }
+        
+        a:visited {color:#000066}
+        a:link {color:#000066}
+        a:hover {color: #FF0000}
+        
+        h1,h2,h3{
+            color:#000066
+        }
+	    
+      .container {
+	  display:flex;
+	  justify-content:space-between;
+	  align-items:center; 
+      }
+
+    </style>
+  </head>
+  
+  <body>
+    <table cellspacing="0"><tr><td width=100%>
+    <!--<h1>Zhiwu Huang </h1>-->
+	    
+  <div class="container">	    
+    <h1>Zhiwu Huang</h1>
+    <div>
+      <a href="index.html">Home</a> |
+      <a href="research.html">Projects</a> |
+      <a href="people.html">People</a> |
+      <a href="publication.html">Publications</a> |
+      <a href="dataset.html">Datasets</a> |
+      <a href="workshop.html">Workshops</a> |
+      <a href="talk.html">Talks</a> |
+      <a href="teaching.html">Teaching</a> |
+      <a href="position.html">Openings</a> | 
+      <a href="about.html">About me</a> | 
+      <a href="contact.html">Contact</a>
+    </div>
+    <!--<nav id="navbar"> 
+      <ul>
+        <li><a href="index.html#Projects">Research</a></li>
+        <li><a href="publication.html">Publications</a></li>
+        <li><a href="workshop.html">Workshops </a></li>
+        <li><a href="talk.html">Talks</a></li>
+	<li><a href="teaching.html">Teaching</a></li>
+	<li><a href="position.html">Open positions</a></li>
+	<li><a href="about.html">About me</a></li>
+	<li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>-->
+</div>
+	    
+    
+	    	    
+    <div class="subheading">
+      <!--<img src="./Photos/ZhiwuHuang-Hawaii.jpeg"/>-->
+      <img src="./Photos/ZhiwuHuang-Sydney_2x-9.jpg"/>
+      <!--I am a postdoctoral researcher with Prof. <a href="https://vision.ee.ethz.ch/people-details.OTAyMzM=.TGlzdC8zMjQ4LC0xOTcxNDY1MTc4.html">Luc Van Gool</a> at <a href="http://www.vision.ee.ethz.ch/">Computer Vision Lab</a>, <a href="https://ethz.ch/en.html"> ETH Zurich </a>. My research interest lies in Computer Vision and Machine Learning for Automated Video Artificial Intelligence, capable of automatically learning to understand the world through videos. My research includes applications to deepfakes tracking, affective computing, and autonomous driving. <br><br>-->	
+      <!--I am a postdoctoral researcher with Prof. <a href="https://vision.ee.ethz.ch/people-details.OTAyMzM=.TGlzdC8zMjQ4LC0xOTcxNDY1MTc4.html">Luc Van Gool</a> at <a href="http://www.vision.ee.ethz.ch/">Computer Vision Lab</a>, <a href="https://ethz.ch/en.html"> ETH Zurich </a>. My research studies human-inspired visual intelligence to understand the world through videos, with applications to deepfakes generation & detection, perceptual quality enhancing, affective & behavioural computing, as well as scalable autonomous driving. <br><br>-->
+      <!--I am a postdoctoral researcher with Prof. <a href="https://vision.ee.ethz.ch/people-details.OTAyMzM=.TGlzdC8zMjQ4LC0xOTcxNDY1MTc4.html">Luc Van Gool</a> at <a href="http://www.vision.ee.ethz.ch/">Computer Vision Lab</a>, <a href="https://ethz.ch/en.html"> ETH Zurich </a>. My research studies human-inspired visual intelligence through automated machine learning, with applications to deepfakes generation & detection, perceptual quality enhancing, affective & behavioural computing, as well as scalable autonomous driving. <br><br>-->
+      <!--I am a postdoctoral researcher with Prof. <a href="https://vision.ee.ethz.ch/people-details.OTAyMzM=.TGlzdC8zMjQ4LC0xOTcxNDY1MTc4.html">Luc Van Gool</a> at <a href="http://www.vision.ee.ethz.ch/">Computer Vision Lab</a>, <a href="https://ethz.ch/en.html"> ETH Zurich </a>. My research team (AutoLV, Automated Learning in Vision) studies human-inspired visual intelligence through automated machine learning on data, label, feature, neuron and task. The applications include visual deepfake, affect and behavior computing. <br><br>-->
+      <!--I am a postdoctoral researcher with Prof. <a href="https://vision.ee.ethz.ch/people-details.OTAyMzM=.TGlzdC8zMjQ4LC0xOTcxNDY1MTc4.html">Luc Van Gool</a> at <a href="http://www.vision.ee.ethz.ch/">Computer Vision Lab</a>, <a href="https://ethz.ch/en.html"> ETH Zurich </a>. My research team (AutoLV) studies automated learning in vision that aims for making machines to learn the visual world, all by themselves. The current research focus is on visual fake, affect and behavior computing through automated machine learning on data, label, feature, neuron and task. <br><br> -->
+    	    
+      <!--I currently working on video generation, enhancement and manipulation as well as human-focussed video clustering, classification, prediction with deep manifold learning, generative distribution learning, and neural architecture learning.-->
+     <!--I will be starting as an Assistant Professor in the <a href="https://sis.smu.edu.sg"> School of Computing and Information Systems <a> at <a href="https://www.smu.edu.sg"> Singapore Management University (SMU) </a> in Summer of 2021. My research team (<a href="index.html#Projects">AutoLV</a>) studies automated learning in vision that aims for making machines to learn the visual world, all by themselves. The current research focus is on visual fake, affect and behavior computing through automated machine learning on data, label, feature, neuron and task. Please follow the <a href="position.html"> instructions </a> to reach me if you are interested in joining my research group as a PhD student. <br>-->
+
+      <!--I will be starting as an Assistant Professor in the <a href="https://sis.smu.edu.sg"> School of Computing and Information Systems <a> at <a href="https://www.smu.edu.sg"> Singapore Management University (SMU) </a> in Summer of 2021, after finishing the postdoc research with Prof. <a href="https://vision.ee.ethz.ch/people-details.OTAyMzM=.TGlzdC8zMjQ4LC0xOTcxNDY1MTc4.html">Luc Van Gool</a> at <a href="http://www.vision.ee.ethz.ch/">Computer Vision Lab</a>, <a href="https://ethz.ch/en.html"> ETH Zurich </a>. My research group (<a href="index.html#Projects">AutoLV</a>) studies automated learning in vision that aims for making machines to learn the visual world, all by themselves. Our research focuses on visual fake, affect and behavior computing through automated machine learning on data, label, feature, neuron and task. <br><br>-->
+	
+      <!--I will be starting as an Assistant Professor in the <a href="https://sis.smu.edu.sg"> School of Computing and Information Systems <a> at <a href="https://www.smu.edu.sg"> Singapore Management University (SMU) </a> in Summer of 2021. My research group (<a href="index.html#Projects">AutoLV</a>) studies automated learning in vision that aims for making machines to learn the visual world, all by themselves. Our research focuses on visual fake, affect and behavior computing through automated machine learning on data, label, feature, neuron and task. <br> <br>-->
+	    
+      <!--(August 2021)I will be starting as an Assistant Professor in the <a href="https://sis.smu.edu.sg">School of Computing and Information Systems<a> at <a href="https://www.smu.edu.sg">Singapore Management University (SMU)</a>. Before coming to Singapore, I worked as a Guest/Postdoc Researcher with Prof. <a href="https://vision.ee.ethz.ch/people-details.OTAyMzM=.TGlzdC8zMjQ4LC0xOTcxNDY1MTc4.html">Luc Van Gool</a> in <a href="http://www.vision.ee.ethz.ch/">Computer Vision Lab</a> at <a href="https://ethz.ch/en.html">ETH Zurich</a>. My <a href="index.html#Projects">AutoVL</a> group studies Automated Visual Learning that aims for making machines to learn the visual world, all by themselves. Our research focuses on visual fake, affect and behavior computing through automated machine learning on data, label, feature, neuron and task. <br> <br>-->
+	    
+      <!--Before coming to Singapore, I worked as a postdoc researcher with Prof. <a href="https://vision.ee.ethz.ch/people-details.OTAyMzM=.TGlzdC8zMjQ4LC0xOTcxNDY1MTc4.html">Luc Van Gool</a> at <a href="https://ethz.ch/en.html">ETH Zurich</a>. <br><br>-->
+      
+	    
+      <!--I am an Assistant Professor of Computer Science in the <a href="https://sis.smu.edu.sg">School of Computing and Information Systems<a> at <a href="https://www.smu.edu.sg">Singapore Management University (SMU)</a>. Before coming to Singapore, I worked as a Guest/Postdoc Researcher with Prof. <a href="https://vision.ee.ethz.ch/people-details.OTAyMzM=.TGlzdC8zMjQ4LC0xOTcxNDY1MTc4.html">Luc Van Gool</a> in <a href="http://www.vision.ee.ethz.ch/">Computer Vision Lab</a> at <a href="https://ethz.ch/en.html">ETH Zurich</a>. My <a href="index.html#Projects">AutoVL</a> group studies Automated Visual Learning that aims for making machines to learn the visual world, all by themselves. Our research focuses on visual fake, affect and behavior computing through automated machine learning on data, label, feature, neuron and task. <br> <br>-->
+	    
+      <!--I am working as an Assistant Professor of Computer Science in the <a href="https://sis.smu.edu.sg">School of Computing and Information Systems<a> at <a href="https://www.smu.edu.sg">Singapore Management University (SMU)</a>. Before coming to Singapore, I worked as a Guest/Postdoc Researcher with Prof. <a href="https://vision.ee.ethz.ch/people-details.OTAyMzM=.TGlzdC8zMjQ4LC0xOTcxNDY1MTc4.html">Luc Van Gool</a> in <a href="http://www.vision.ee.ethz.ch/">Computer Vision Lab</a> at <a href="https://ethz.ch/en.html">ETH Zurich</a>. My <a href="index.html#Projects">AutoVL</a> group studies Automated Visual Learning that aims for making machines to learn the visual world, all by themselves. Our research focuses on visual fake, affect and behavior computing through automated machine learning on data, label, feature, neuron and task. <br> <br>-->
+	    
+    <!--I am an Assistant Professor of Computer Science in the <a href="https://sis.smu.edu.sg">School of Computing and Information Systems<a> at <a href="https://www.smu.edu.sg">Singapore Management University (SMU)</a>. Before coming to Singapore, I worked as a Guest/Postdoc Researcher with Prof. <a href="https://vision.ee.ethz.ch/people-details.OTAyMzM=.TGlzdC8zMjQ4LC0xOTcxNDY1MTc4.html">Luc Van Gool</a> in <a href="http://www.vision.ee.ethz.ch/">Computer Vision Lab</a> at <a href="https://ethz.ch/en.html">ETH Zurich</a>. My <a href="people.html">SAVG</a> (SMU Autonomous Vision Group) performs the research that aims for making machines to learn the visual world, all by themselves. Our research focuses on visual deepfake, affective and behavior computing through automated machine learning on data, label, feature, neuron and task. <br> <br>	-->
+	    
+ <!--I am an Assistant Professor of Computer Science in the <a href="https://sis.smu.edu.sg">School of Computing and Information Systems<a> at <a href="https://www.smu.edu.sg">Singapore Management University (SMU)</a>. Before coming to Singapore, I worked as a Guest/Postdoc Researcher with Prof. <a href="https://vision.ee.ethz.ch/people-details.OTAyMzM=.TGlzdC8zMjQ4LC0xOTcxNDY1MTc4.html">Luc Van Gool</a> in <a href="http://www.vision.ee.ethz.ch/">Computer Vision Lab</a> at <a href="https://ethz.ch/en.html">ETH Zurich</a>. My <a href="people.html">SAVG</a> (SMU Autonomous Vision Group) researches autonomous visual computing that aims for making machines to learn the visual world, all by themselves. Our current research focuses on visual deepfake, affective and behavior computing through automated machine learning on data, label, feature, neuron and task. Our ultimate quest is artificial general intelligence with rational, emotional and imaginal capabilities. <br> <br> -->
+      I am a <a href="https://www.southampton.ac.uk/people/62bxzm/doctor-zhiwu-huang"> Lecturer (Assistant Professor) </a> in the <a href="https://www.southampton.ac.uk/research/groups/vision-learning-control"> Vision, Learning and Control (VLC) </a> group within the school of <a href="http://ecs.soton.ac.uk"> Electronics and Computer Science (ECS)</a> at the <a href="https://www.southampton.ac.uk"> University of Southampton </a>. I mainly research generative computer vision and continual machine learning for artificial general intelligence. My currently focused machine learning methodologies include generative modelling, continual learning, and language prompting. The ultimate quest of my research is to empower machines with rational, emotional and imaginal intelligence.  <br> <br> 
+	    
+
+      
+      <!--<em> I am actively looking for motivated and talented PhD students to join our reaseach group at SMU (ranked No.47 in the AI category and No.85 in the CS discipline according to <a href="http://csrankings.org/#/index?all&world">CSRankings</a>). Please follow the <a href="position.html"> instructions </a> to reach me if you are interested. </em>-->
+
+      
+      <em> I am looking for motivated and talented PhD students to join my research group. Please follow the <a href="position.html"> instructions </a> to reach me if you are interested. </em>
+        
+      <!--<b> [<a href="http://scholar.google.ch/citations?user=yh6t92AAAAAJ&hl=en">Google Scholar</a>] [<a href="https://github.com/zhiwu-huang"> Github </a>] </b> -->
+      
+       <!-- <b>Prospective students </b>, please <a href="javascript:toggle_vis('contact')">read this</a> before contacting me.
+              <div id="contact" style="display:none"> 
+                  Thank you for your interest in joining my research team! I am taking on new MS and PhD students each year. However, I ask that you do not contact me directly with regard to MS or PhD admissions until after you are admitted, as I will not be able to reply to individual emails. <br>
+                  If you are interested in a <i>post-doc</i> position, please read <a href="https://goo.gl/forms/aKL2gnq8T80FNVMb2">this form</a>. <br>
+                  If you are a current or admitted <i>ETH MS student</i> interested in research positions, please read <a href="https://goo.gl/forms/uJuYOfIBQVPhEEDy1">this form</a>. <br>
+                  If you are not an ETH student and insteresed in research positions, please read <a href="https://goo.gl/forms/9scJRH3hw6z7GNbj2">this form</a>.
+              </div>
+        </p>-->
+        
+    </div>
+    
+
+    <!--<nav>
+      Jump to: 
+      <a href="index.html#Projects">Research</a> |
+      <a href="publication.html">Publications</a> |
+      <a href="workshop.html">Workshops </a> |
+      <a href="talk.html">Talks</a> |
+      <a href="teaching.html">Teaching</a> |
+      <a href="position.html">Open positions</a> | 
+      <a href="about.html">About me</a> | 
+      <a href="contact.html">Contact</a>
+    </nav>-->
+	    
+ 
+      </td>
+    </tr></table>
+    
+    <h2> My research team is opening new PhD positions in Computer Vision. </h2> 
+	  
+    <h3> Research Description </h3>
+    
+	Visual information is ideally suited for teaching machines with lots of knowledge about the world, because it implicitly encodes the physical constraints that define it. However, existing computer vision models generally approach the visual computing problems with extremely expensive expert knowledge in terms of data pre-processing, manual labeling, feature engineering, neuron design and task assignment. Our research aims at addressing these challenges for both low-level and high-level visual understanding and communication problems such as visual fake, affect and behavior computing. In particular, our research studies automated learning on visual data, label, feature, neuron and task, which aims for making machines to learn the visual world, all by themselves. The PhD student tasks will involve developing novel ideas in the cutting- edge research, as well as conducting data collection for their evaluation.
+
+    <h3> Your Profile </h3>
+    
+	<li> Bachelor degree or Master degree (if applicable) in computer science, electrical engineering, or applied mathematics </li>
+    	<li> High enthusiasm for leading-edge research, team spirit, and capability of independent problem-solving </li>
+        <li> Rich programming knowledge and experience with Python / MATLAB / C++ </li>
+        <li> Fluent written and spoken English is a must.  </li>
+	<!--Note that applicants whose medium of instruction for their Bachelor degree is not in English are required to submit TOEFL/IELTS (international test) scores.-->
+        <li> Good knowledge and experience in one or more of the following is a plus: computer vision, deep learning, manifold learning, generative modeling, GPU programming </li>
+
+    <h3> Funding Opportunities </h3>
+	  
+	  We generally offers competitive scholarships or studentships to PhD candidates. <!--Full scholarships are available for the opening positions. For more details, please refer to the related <a href="https://sis.smu.edu.sg/programmes/PhD/admission-fees-scholarships">information</a>.-->
+
+    <h3> How To Apply </h3>
+	  
+	  <!--For applications, please first send an email to: zhiwu.huang@vision.ee.ethz.ch, including: CV, transcript of bachelor and master courses, a brief statement of research interests, qualifications in reading, speaking, and writing English, and two referee reports (referees are expected to submit the completed referee form directly to us). After the shortlisting and interview process, we will consider to create an initial offer, and move forward to the <a href="https://sis.smu.edu.sg/programmes/PhD/online-application "> online application </a>. -->
+	  For applications, please first send an email to: ZZhiwu *dot* Huang *at* gmail.com, including: CV, transcript of bachelor and master courses, a brief statement of research interests, and two referees' contact information (referees are expected to submit the completed referee form directly to us). After the shortlisting and interview process, we will consider to create an initial offer. <!--, and move forward to the <a href="https://sis.smu.edu.sg/programmes/PhD/online-application ">online application</a>.--> For a good sense of how this process work, I encourage reading <a href="http://www.cs.cmu.edu/~harchol/gradschooltalk.pdf">Mor Harchol-Balter's guide to graduate school admissions in CS</a>.
+
+	   
+   <!--<h3>  About SMU </h3>-->
+	    
+	<!--the third autonomous university (established in 2000) in Singapore. It is-->
+	    
+	<!--SMU is ranked around No.40 in the broad AI category and about No.85 in the overall CS discipline according to <a href="http://csrankings.org/#/index?all&world">CSRankings</a>, and No.118 in the broader CS & IS interdiscilines according to <a href="https://www.topuniversities.com/university-rankings/university-subject-rankings/2021/computer-science-information-systems">QS Subject Rankings</a>. We are renowned for our world-class education, cutting-edge research and direct transfer of new knowledge into society. Located in the heart of Singapore that forges connections all over the world, we work together to develop solutions for the global challenges of today and tomorrow.-->
+	      
+<!-- <table><tr>
+
+	  <td width="45%">  
+		  <iframe width="572" height="322" src="https://www.youtube.com/embed/8EUX0DzJmKM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	  </td>
+
+	<td valign="top">
+		<p> Following NUS and NTU, SMU is the third autonomous university in Singapore. It is classified as a specialist university in the Quacquarelli Symonds (QS) World University Rankings (WUR), with being ranked 12th among specialist universities of the world (<a href="https://admissions.smu.edu.sg/global-rankings">more global rankings</a>). We are renowned for our world-class education, cutting-edge research and direct transfer of new knowledge into society. Located in the heart of Singapore that forges connections all over the world, we work together to develop solutions for the global challenges of today and tomorrow.
+    </td></tr>
+  </table>
+	    
+  <!--<h3> About SMU </h3>
+	    
+	Following NUS and NTU, SMU is the third autonomous university in Singapore. It is classified as a specialist university in the Quacquarelli Symonds (QS) World University Rankings (WUR) 2021, with being ranked 12th among specialist universities of the world and ranked 101-150th on computer science & information systems (<a href="https://admissions.smu.edu.sg/global-rankings">more global rankings</a>). We are renowned for our world-class education, cutting-edge research and direct transfer of new knowledge into society. Located in the heart of Singapore that forges connections all over the world, we work together to develop solutions for the global challenges of today and tomorrow.  
+  -->	    
+	    
+   </body>
+</html>
